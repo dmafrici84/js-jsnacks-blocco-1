@@ -1,0 +1,22 @@
+.moneta {
+  display: flex;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.testa {
+  filter: opacity(0);
+  transition: 0.5s;
+}
+
+.croce {
+  filter: opacity(0);
+  transition: 0.5s;
+}
+
+.visibile {
+  filter: opacity(1);
+  transition: 0.5s;
+}
