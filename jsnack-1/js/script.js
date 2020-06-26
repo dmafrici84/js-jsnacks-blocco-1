@@ -44,7 +44,7 @@ if (!isNaN(num1) && !isNaN(num2)) {
 
 } else {
 
-  numMaggiore.innerHTML = "I dati inseriti non sono dei numeri"
+  numMaggiore.innerHTML = "I dati inseriti non sono dei numeri";
 
 }
 

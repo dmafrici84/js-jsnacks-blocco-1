@@ -1,0 +1,45 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+h3 {
+
+  font-size: 22px;
+
+}
+
+h4, p, li {
+
+  font-size: 18px;
+  margin-top: 10px;
+  margin-right: 20px;
+
+}
+
+ul {
+
+  list-style: none;
+  display: flex;
+
+}
+
+.for {
+
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: skyblue;
+  color: coral;
+
+}
+
+.while {
+
+  padding: 10px;
+  background-color: #0bd46c;
+  color: #a00;
+
+}

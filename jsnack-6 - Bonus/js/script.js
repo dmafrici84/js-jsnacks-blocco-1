@@ -32,13 +32,13 @@ btn.addEventListener("click", function () {
   //(scelta == "Testa"): l'utente seleziona testa
     // se il numero generato casulamente è pari (!(num % 2))
     // se il numero generato casulamente è dispari (else)
-  //(else): l'utente seleziona croce
+  //(else): (scelta == "Croce") l'utente seleziona croce
     // se il numero generato casulamente è pari (!(num % 2))
     // se il numero generato casulamente è dispari (else)
 
   if (!scelta) {
 
-    result.innerHTML = "Non hai selezionato alcuna scelta!"
+    result.innerHTML = "Non hai selezionato alcuna scelta!";
 
   } else if (scelta == "Testa") {
 
@@ -46,13 +46,13 @@ btn.addEventListener("click", function () {
 
       document.getElementById('testa').className = "Visibile";
 
-      result.innerHTML = "Complimenti hai vinto!!!"
+      result.innerHTML = "Complimenti hai vinto!!!";
 
     } else {
 
       document.getElementById('croce').className = "Visibile";
 
-      result.innerHTML = "Mi dispiace hai perso...Ritenta sari più fortunato."
+      result.innerHTML = "Mi dispiace hai perso...Ritenta sarai più fortunato.";
 
     }
 
@@ -62,13 +62,13 @@ btn.addEventListener("click", function () {
 
       document.getElementById('testa').className = "Visibile";
 
-      result.innerHTML = "Mi dispiace hai perso...Ritenta sari più fortunato."
+      result.innerHTML = "Mi dispiace hai perso...Ritenta sari più fortunato.";
 
     } else {
 
       document.getElementById('croce').className = "Visibile";
 
-      result.innerHTML = "Complimenti hai vinto!!!"
+      result.innerHTML = "Complimenti hai vinto!!!";
 
     }
 
